@@ -1,7 +1,6 @@
 ---
 
-- name: Ensure Git and cURL are installed
+- name: Ensure cURL is installed
   homebrew:
     name:
-      - git
       - curl
